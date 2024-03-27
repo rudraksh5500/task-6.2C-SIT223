@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Stage 1: Build') {
             steps {
-                echo 'Stage 1: Build'
+                echo 'Stage 1: Build' 
                 echo 'Description: Build the React application using a bundler like Webpack or Vite to compile and package the code.'
                 echo 'Tool used: Webpack or Vite'
             }
